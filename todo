@@ -1,0 +1,9 @@
+npx create-next-app@latest
+npm run dev
+npm install @supabase/auth-helpers-nextjs @supabase/supabase-js   @supabase/ssr
+npm install --save @types/react-beautiful-dnd
+npm install react-beautiful-dnd
+for using react-beautifull-dnd in react project => const nextConfig = {
+        reactStrictMode: false,
+    }
+     
