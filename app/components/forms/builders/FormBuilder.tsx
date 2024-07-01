@@ -31,7 +31,7 @@ export default function FormBuilder() {
         style: `h-10 text-sm focus-visible:outline-none focus-visible:ring-2
            focus-visible:bg-white border-zinc-200 duration-100 placeholder:text-zinc-400 ring-2 
            ring-transparent focus:bg-white focus-visible:ring-indigo-400 shadow-sm py-2 px-3 w-full
-            rounded-lg border`,
+            rounded-lg border `,
         ...(selectedType === "select" && { options: ["Option 1", "Option 2"] }),
       },
       id: idGenerator(),
