@@ -4,8 +4,6 @@ import FormBuilder from "./forms/builders/FormBuilder";
 import PreviewForm from "./forms/previews/PreviewForm";
 
 export default function HomePage() {
-  const [submitBtn, setSubmitBtn] = useState("Submit");
-  const [elements, setElements] = useState<FormElement[]>([]);
   const [preview, setPreview] = useState(false);
 
   return (
@@ -44,14 +42,9 @@ export default function HomePage() {
           </button>
         </div>
         {preview ? (
-          <PreviewForm elements={elements} submitBtn={submitBtn} />
+          <PreviewForm  />
         ) : (
-          <FormBuilder
-            allElements={elements}
-            addNewElement={(elem: FormElement[]) => setElements(elem)}
-            setSubmitBtn={(value: string) => setSubmitBtn(value)}
-            submitBtn={submitBtn}
-          />
+          <FormBuilder  />
         )}
       </div>
     </>

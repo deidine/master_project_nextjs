@@ -1,7 +1,8 @@
 type FormElement = {
-    elementType: InputElement;
+ id:string;
+    elementType: InputElement | SelectElement;
   };
-
+ 
   type patternType = { value: string; label: any };
   
 // export type FormData = (FormInput | FormSelect | FormTextArea)[];

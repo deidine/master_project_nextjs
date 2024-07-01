@@ -13,10 +13,12 @@
     "@supabase/ssr": "^0.3.0",
     "@supabase/supabase-js": "^2.43.6",
     "antd": "^5.18.3",
+    "clsx": "^2.1.1",
     "next": "14.2.4",
     "react": "^18",
     "react-beautiful-dnd": "^13.1.1",
     "react-dom": "^18",
+    "tailwind-merge": "^2.3.0",
     "uuid": "^10.0.0"
   },
   "devDependencies": {

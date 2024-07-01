@@ -13,7 +13,7 @@ type InputElement = {
   label: string;
   style?: string;
   required?: boolean;
-  pattern?: string ;
+  pattern?: string[] ;
 };
 
 type InputOptions = {
